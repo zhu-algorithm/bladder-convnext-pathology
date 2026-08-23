@@ -1,0 +1,19 @@
+seed: 2026
+model_name: convnext_small.fb_in22k_ft_in1k
+num_classes: 2
+pretrained: true
+patch_size: 224
+batch_size: 32
+workers: 4
+epochs: 30
+patience: 7
+learning_rate: 0.0001
+weight_decay: 0.0001
+bootstrap_replicates: 10000
+bootstrap_seed: 20260823
+train_csv: data/metadata/bladder_train.csv
+val_csv: data/metadata/bladder_val.csv
+test_csv: data/metadata/bladder_test.csv
+image_root: null
+run_dir: runs/baseline
+

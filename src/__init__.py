@@ -1,0 +1,2 @@
+"""Bladder ConvNeXt pathology pipeline."""
+

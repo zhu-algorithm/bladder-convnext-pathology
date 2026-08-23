@@ -1,0 +1,50 @@
+{
+  "splits": {
+    "train": {
+      "patches": 5423,
+      "patients": 18,
+      "slides": 49,
+      "class_0": 3658,
+      "class_1": 1765,
+      "missing_cells": 0,
+      "duplicate_uuid_xy": 0
+    },
+    "val": {
+      "patches": 996,
+      "patients": 4,
+      "slides": 8,
+      "class_0": 671,
+      "class_1": 325,
+      "missing_cells": 0,
+      "duplicate_uuid_xy": 0
+    },
+    "test": {
+      "patches": 648,
+      "patients": 4,
+      "slides": 5,
+      "class_0": 442,
+      "class_1": 206,
+      "missing_cells": 0,
+      "duplicate_uuid_xy": 0
+    }
+  },
+  "warnings": [
+    "All image paths point to /home/aistudio and were not verified locally.",
+    "CSV annotation columns contain no frozen-model probability; tumor_ratio is ground truth, not y_score."
+  ],
+  "patient_overlap": {
+    "train_val": [],
+    "train_test": [],
+    "val_test": []
+  },
+  "overall": {
+    "patches": 7067,
+    "patients": 26,
+    "slides": 62,
+    "source_images": 135,
+    "class_0": 4771,
+    "class_1": 2296,
+    "duplicate_uuid_xy": 0
+  },
+  "cv_note": "These files define folds only. They are not cross-validation performance results; each fold still requires fresh model training and out-of-fold prediction. The 4 original test patients remain excluded and sealed."
+}
